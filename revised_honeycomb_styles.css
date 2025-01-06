@@ -1,0 +1,95 @@
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('https://i.imgur.com/TgMR2Dw.png') no-repeat center center fixed; /* Placeholder for the Honeycomb background */
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* Top Action Bar */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.top-bar .left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-bar .icon {
+    font-size: 20px;
+}
+
+.top-bar .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Search Bar Widget */
+.search-bar {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 300px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding-left: 10px;
+}
+
+.search-bar .icon {
+    cursor: pointer;
+}
+
+/* Bottom Bar */
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.bottom-bar .left,
+.bottom-bar .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom-bar .icon {
+    font-size: 20px;
+    cursor: pointer;
+}
